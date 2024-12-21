@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    font-family: poppins;
+}
+
+.page1{
+    width: 100%;
+    height: 90%;
+    background: url(man-1253004_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 20px 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: white;
+}
+
+.nav-right a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.lang{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    color: white;
+}
+
+.nav-right>i{
+    color: rgb(26, 255, 0);
+    font-size: 18px;
+}
+
+.lang p{
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.lang i{
+    color: green;
+    font-size: 18px;
+}
+
+.nav-left a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.nav-left{
+    display: flex;
+    gap: 20px;
+}
+
+.nav-left a:hover{
+    color: rgb(235, 210, 163);
+}
+
+.mid-nav i{
+    font-size: 35px;
+    color: white;
+}
+
+.mid-nav i:hover{
+    color: blue;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1vw;
+    gap: 5px;
+}
+
+.footer h1{
+    font-weight: 800;
+}
+
+.footer h1 span{
+    font-weight: 700;
+}
+
+.footer i{
+    font-size: 30px;
+}
+
+.footer i:hover{
+    color: blue;
+}
+
+.page2-filler{
+    background-color: rgba(0, 0, 0, 0.854);
+    width: 100%;
+    height:150px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: montserrat;
+}
+
+.para{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.para h1{
+    font-size: 2vw;
+    font-weight: 700;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+#buttonss{
+    font-family: poppins;
+    font-size: 13px;
+    padding: 5px 15px;
+    border: 1px solid white;
+    border-radius: 20px;
+    font-weight: 600;
+    background-color: rgba(0, 0, 0, 0.918);
+    color: white;
+}
+
+#buttonss:hover{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+
+.buttons button{
+    border: none;
+    background-color: transparent;
+    color: rgb(129, 125, 125);
+    font-weight: 600;
+}
+
+.buttons button:hover{
+    color: wheat;
+}
+
+.page2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.page2-images{
+    display: grid;
+    grid-template-columns: repeat(4, 354px);
+}
+
+.page2-images img{
+    width: 350px;
+}
+
+.page2-images img:hover{
+    scale: 1.1;
+    transition: 0.4s linear;
+}
+
+.about{
+    background-color: black;
+    width: 100%;
+    height: 50%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    width: 35%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.content h1{
+    font-size: 1.8vw;
+}
+
+.content p{
+    font-size: 13px;
+}
+
+.content h4{
+    font-weight: 500;
+    color: rgb(157, 153, 153);
+    text-decoration: underline;
+}
+
+.end-box{
+    background-color: rgba(0, 0, 0, 0.826);
+    color: white;
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.icons{
+    display: flex;
+    gap: 80px;
+}
+
+.icons .phone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.icons .phone i{
+    font-size: 50px;
+    color: rgb(210, 190, 152);
+}
+
+.phone p{
+    font-size: 14px;
+}
+
+.phone i:hover{
+    scale: 1.2;
+}
